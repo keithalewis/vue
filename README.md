@@ -34,5 +34,6 @@ Every arbitrage-free model is determined by a martingale
 measure $M_t$ indexed by instruments and positive measures $D_t$. Prices $X_t$ and cash flows $C_t$
 of instruments satisfy
 $$
-    X_t D_t = (X_u D_u + \sum_{t < s \le u} C_s D_s)|_{\mathcal{A}_t}
+X_t D_t = (X_u D_u + \sum_{t < s \le u} C_s D_s)|_{\mathcal{A}_t}
 $$
+where $\mathcal{A}_t$ is the information available at time $t$.
