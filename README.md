@@ -35,6 +35,6 @@ measure $M_t$ indexed by instruments and positive measures $D_t$. Prices $X_t$ a
 of instruments satisfy
 
 ```math
-X_t D_t = (X_u D_u + \sum_{t < s \le u} C_s D_s)|_{\mathcal{A}_t}
+X_t D_t = (X_u D_u + \sum_{t < s \le u} C_s D_s)|_{𝒜_t}
 ```
-where $\mathcal{A}_t$ is the information available at time $t$.
+where $𝒜_t$ is the information available at time $t$.
