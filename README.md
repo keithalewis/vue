@@ -1,5 +1,27 @@
-# Vue 3 + TypeScript + Vite
+# Unified Finance
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Front to back office software and analytics.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Front Office
+
+A _holding_ is an _amount_, _instrument_, and _owner_.
+Amounts are an integral multiple of the minimum trading
+size of an instrument. The set of owners is a hierarcy.
+The root owner can have subsidiaries and we can further
+partition into corporate units and even individual 
+employees. The owner of a holding is a leaf in the
+hierarchy that can be used to obtain parent information.
+
+A _portfolio_ is a collection of holdings.
+
+The _mark-to-market_ involves specifying a putative
+price \(X(i)\) for instruments. Amount \(a\) of instrument
+\(i\) has value \(aX(i)\). A more realistic model would
+allow price \(X(a,i,o)\) to involve the amount and the owner. 
+
+
+## Mid Office
+
+## Back Office
+
+## Analytics
