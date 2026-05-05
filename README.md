@@ -15,9 +15,9 @@ hierarchy that can be used to obtain parent information.
 A _portfolio_ is a collection of holdings.
 
 The _mark-to-market_ involves specifying a putative
-price \(X(i)\) for instruments. Amount \(a\) of instrument
-\(i\) has value \(aX(i)\). A more realistic model would
-allow price \(X(a,i,o)\) to involve the amount and the owner. 
+price $X(i)$ for instruments. Amount $a$ of instrument
+$i$ has value $aX(i)$. A more realistic model would
+allow price $X(a,i,o)$ to involve the amount and the owner. 
 
 
 ## Mid Office
